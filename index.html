@@ -77,48 +77,42 @@
         <span class="teko" style="color: #FFD100; font-size: 18px;">LIVE MAP — SHIP POSITION</span>
         <span class="teko" style="color: #97D700; font-size: 16px;">● MISSION LAUNCHES 17 OCT 2026 — TOKYO</span>
       </div>
-      <div style="box-sizing: border-box; width: 100%; height: 360px; border-radius: 8px; background: #06184A; position: relative; overflow: hidden;" class="halftone-dark">
-        <svg viewBox="0 0 300 300" width="100%" height="100%" role="img" aria-label="Map of Japan showing the 2026 cruise route and ports of call" style="display: block;">
-          <text x="250" y="260" fill="#2A4A8A" font-family="'Teko', sans-serif" font-size="11" letter-spacing="1" opacity="0.8">PACIFIC OCEAN</text>
-          <text x="6" y="110" fill="#2A4A8A" font-family="'Teko', sans-serif" font-size="9" letter-spacing="1" opacity="0.8">SEA OF JAPAN</text>
-
-          <!-- landmasses -->
-          <path d="M190,10 C210,6 228,18 226,35 C224,50 206,58 190,53 C175,48 170,33 176,20 C179,14 184,11 190,10 Z" fill="#D8CBA0" stroke="#0A0A0A" stroke-width="1.5"/>
-          <path d="M200,55 C218,60 222,78 213,92 C206,103 194,100 189,112 C184,124 195,128 186,139 C177,150 163,145 154,156 C145,167 152,172 141,180 C128,188 113,182 102,186 C109,171 116,158 109,146 C102,134 113,129 106,116 C99,103 114,100 111,87 C108,74 124,74 122,61 C120,49 136,50 143,41 C150,32 166,35 173,27 C180,19 194,24 197,35 C199,43 196,50 200,55 Z" fill="#D8CBA0" stroke="#0A0A0A" stroke-width="1.5"/>
-          <path d="M140,160 C153,157 164,166 161,177 C158,186 146,189 136,184 C128,180 128,170 133,163 C135,161 137,160 140,160 Z" fill="#D8CBA0" stroke="#0A0A0A" stroke-width="1.5"/>
-          <path d="M102,175 C118,172 129,186 125,202 C121,216 104,223 90,216 C78,210 76,193 85,182 C90,176 96,174 102,175 Z" fill="#D8CBA0" stroke="#0A0A0A" stroke-width="1.5"/>
-          <path d="M35,135 C46,137 51,153 46,169 C42,181 30,186 22,177 C16,169 18,151 25,140 C28,135 32,133 35,135 Z" fill="#9AA0A6" stroke="#0A0A0A" stroke-width="1.5" opacity="0.8"/>
-          <text x="20" y="200" fill="#C9CCD1" font-family="'Teko', sans-serif" font-size="8" letter-spacing="0.5">S. KOREA</text>
+      <div style="box-sizing: border-box; width: 100%; aspect-ratio: 1200 / 430; border-radius: 8px; background-image: url('images/japan-map.webp'); background-size: cover; background-position: center; position: relative; overflow: hidden;">
+        <svg viewBox="0 0 1200 430" width="100%" height="100%" role="img" aria-label="Map of Japan showing the 2026 cruise route and ports of call" style="position: absolute; inset: 0; display: block;">
+          <text x="960" y="260" fill="#2a5a7a" font-family="'Teko', sans-serif" font-size="20" letter-spacing="2" opacity="0.6">PACIFIC OCEAN</text>
+          <text x="420" y="55" fill="#2a5a7a" font-family="'Teko', sans-serif" font-size="16" letter-spacing="2" opacity="0.6">SEA OF JAPAN</text>
+          <text x="140" y="70" fill="#4a7a4a" font-family="'Teko', sans-serif" font-size="15" letter-spacing="1" opacity="0.75">SOUTH KOREA</text>
 
           <!-- cruise route -->
-          <path d="M182,80 L128,133 L145,170 L95,152 L30,150 L88,188 L102,212 L163,100 L182,80" fill="none" stroke="#97D700" stroke-width="2" stroke-dasharray="4 3" opacity="0.9" stroke-linejoin="round"/>
+          <path d="M800,95 L580,125 L520,205 L490,115 L300,130 L378,220 L405,295 L700,120 L800,95" fill="none" stroke="#DA291C" stroke-width="4" stroke-dasharray="10 8" opacity="0.9" stroke-linejoin="round" stroke-linecap="round"/>
 
           <!-- ports -->
-          <circle cx="128" cy="133" r="4" fill="#FFD100" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="134" y="131" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5">KYOTO/OSAKA</text>
+          <circle cx="580" cy="125" r="9" fill="#FFD100" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="592" y="121" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold">KYOTO/OSAKA</text>
 
-          <circle cx="145" cy="170" r="4" fill="#FFD100" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="145" y="184" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5" text-anchor="middle">KOCHI</text>
+          <circle cx="520" cy="205" r="9" fill="#FFD100" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="520" y="232" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold" text-anchor="middle">KOCHI</text>
 
-          <circle cx="95" cy="152" r="4" fill="#FFD100" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="90" y="150" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5" text-anchor="end">HIROSHIMA</text>
+          <circle cx="490" cy="115" r="9" fill="#FFD100" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="478" y="100" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold" text-anchor="end">HIROSHIMA</text>
 
-          <circle cx="30" cy="150" r="4" fill="#EC008C" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="25" y="140" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5" text-anchor="end">BUSAN</text>
+          <circle cx="300" cy="130" r="9" fill="#EC008C" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="288" y="115" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold" text-anchor="end">BUSAN</text>
 
-          <circle cx="88" cy="188" r="4" fill="#FFD100" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="83" y="186" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5" text-anchor="end">NAGASAKI</text>
+          <circle cx="378" cy="220" r="9" fill="#FFD100" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="366" y="206" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold" text-anchor="end">NAGASAKI</text>
 
-          <circle cx="102" cy="212" r="4" fill="#FFD100" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="102" y="226" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5" text-anchor="middle">KAGOSHIMA</text>
+          <circle cx="405" cy="295" r="9" fill="#FFD100" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="405" y="322" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold" text-anchor="middle">KAGOSHIMA</text>
 
-          <circle cx="163" cy="100" r="4" fill="#FFD100" stroke="#0A0A0A" stroke-width="1.5"/>
-          <text x="168" y="108" fill="#fff" font-family="'Teko', sans-serif" font-size="9" letter-spacing="0.5">SHIMIZU (MT FUJI)</text>
+          <circle cx="700" cy="120" r="9" fill="#FFD100" stroke="#0A0A0A" stroke-width="3"/>
+          <text x="712" y="116" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="19" letter-spacing="0.5" font-weight="bold">SHIMIZU (MT FUJI)</text>
 
           <!-- current position: Tokyo, departure day -->
-          <circle cx="182" cy="80" r="9" fill="#DA291C" opacity="0.35"/>
-          <circle cx="182" cy="80" r="5" fill="#DA291C" stroke="#FFD100" stroke-width="1.5"/>
-          <text x="188" y="78" fill="#FFD100" font-family="'Teko', sans-serif" font-size="10" letter-spacing="0.5" font-weight="bold">TOKYO — DEPARTS 17 OCT</text>
+          <circle cx="800" cy="95" r="22" fill="#DA291C" opacity="0.3"/>
+          <circle cx="800" cy="95" r="11" fill="#DA291C" stroke="#FFD100" stroke-width="3"/>
+          <text x="816" y="90" fill="#0A0A0A" font-family="'Teko', sans-serif" font-size="21" letter-spacing="0.5" font-weight="bold">TOKYO</text>
+          <text x="816" y="112" fill="#A01010" font-family="'Teko', sans-serif" font-size="15" letter-spacing="0.5" font-weight="bold">DEPARTS 17 OCT</text>
         </svg>
       </div>
     </div>

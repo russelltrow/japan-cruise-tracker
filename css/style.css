@@ -67,6 +67,10 @@ a { color: inherit; text-decoration: none; }
   border-radius: 50%;
   z-index: 2;
 }
+.gadget-tag.gadget-tag-green::before {
+  background: #082B1D;
+  border-color: #39D98A;
+}
 .sfx {
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
